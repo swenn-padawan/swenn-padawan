@@ -6,5 +6,5 @@
   </a>
 </p>
 
-  <img alt="github stats" src="https://pixel-profile-ui.vercel.app/api/github-stats?username=swenn-padawan&screen_effect=true&include_all_commits=true&pixelate_avatar=false&theme=summer&theme=summer&color=%23ffffffFF">
+  <img alt="github stats" src="https://pixel-profile-ui.vercel.app/api/github-stats?username=swenn-padawan&screen_effect=false&include_all_commits=true&pixelate_avatar=false&theme=summer&theme=summer&color=%23ffffffFF">
 </picture>
