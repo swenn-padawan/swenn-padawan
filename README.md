@@ -6,7 +6,7 @@
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-[![My Skills](https://skillicons.dev/iconsC)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=C)](https://skillicons.dev)
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=swenn-padawan&show_icons=true&locale=en" alt="swenn-padawan" /></p>
 
