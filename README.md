@@ -5,4 +5,4 @@
     <img src="https://skillicons.dev/icons?i=c,vim,linux" />
   </a>
 </p>
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=swenn-padawan&show_icons=true&theme=tokyonight)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/swenn-padawan/github-readme-stats)
