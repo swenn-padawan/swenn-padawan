@@ -5,8 +5,6 @@
     <img src="https://skillicons.dev/icons?i=c,vim,linux" />
   </a>
 </p>
-<picture decoding="async" loading="lazy">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuciNyan/LuciNyan/output/github-stats.png">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuciNyan/LuciNyan/output/github-stats-dark.png">
-  <img alt="github stats" src="https://pixel-profile.vercel.app/api/github-stats?username=swenn-padawan&screen_effect=false&theme=fuji&hide=avatar&dithering=true">
+
+  <img alt="github stats" src="https://pixel-profile-ui.vercel.app/api/github-stats?username=swenn-padawan&screen_effect=true&include_all_commits=true&pixelate_avatar=true&theme=fuji&theme=fuji&color=%23ffffffFF">
 </picture>
