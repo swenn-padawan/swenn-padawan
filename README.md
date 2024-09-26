@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Swenn</h1>
 <h3 align="center">A 42 Student</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=swenn-padawan" alt="swenn-padawan" /></a> </p>
-
 - 🌱 I’m currently learning **C**
 
 <h3 align="left">Connect with me:</h3>
@@ -15,4 +13,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=swenn-padawan&show_icons=true&locale=en" alt="swenn-padawan" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=swenn-padawan&" alt="swenn-padawan" /></p>
-
