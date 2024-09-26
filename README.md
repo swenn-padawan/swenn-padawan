@@ -15,3 +15,4 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Jacquarda+Bastarda+9&duration=1000&pause=1000&color=3C6FFF&width=435&lines=I'm+interested+in+cybersecurity;And+Low-level-Programming)](https://git.io/typing-svg)
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=swenn-padawan&theme=prussian&card_width=1000)](https://git.io/streak-stats)
