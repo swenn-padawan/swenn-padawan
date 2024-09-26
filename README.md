@@ -5,7 +5,4 @@
     <img src="https://skillicons.dev/icons?i=c,vim,linux" />
   </a>
 </p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=swenn-padawan&show_icons=true&locale=en" alt="swenn-padawan" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=swenn-padawan&" alt="swenn-padawan" /></p>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=tokyonight)
