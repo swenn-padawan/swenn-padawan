@@ -5,4 +5,5 @@
     <img src="https://skillicons.dev/icons?i=c,vim,linux" />
   </a>
 </p>
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=swenn-padawan&show_icons=true&theme=radical)
+<!--Replace <username> with your own GitHub username.-->
+https://pixel-profile.vercel.app/api/github-stats?username=<swenn-padawan>
