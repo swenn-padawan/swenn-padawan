@@ -1,14 +1,11 @@
-name: generate-and-upload-card
+name: Generate snake animation
 
 on:
-  # run automatically every 24 hours
-  schedule:
-    - cron: "0 */24 * * *"
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
 
-  # allows to manually run the job at any time
   workflow_dispatch:
 
-  # run on every push on the master branch
   push:
     branches:
     - master
@@ -21,16 +18,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate github stats card
-        uses: swenn-padawan/pixel-profile/action@v1.0.0
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
-          outputs: |
-            dist/github-stats?username=swenn-padawan&screen_effect=false&theme=fuji&dithering=true&hide=avatar
-            dist/github-stats-dark?username=swenn-padawan&screen_effect=true&pixelate_avatar=false
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg?palette=github-dark
 
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
+
+      - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
