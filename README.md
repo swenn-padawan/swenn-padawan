@@ -22,6 +22,6 @@
 ###
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/swenn-padawan/swenn-padawan/output/main.yml" alt="Snake animation" />
+![Snake animation](https://raw.githubusercontent.com/swenn-padawan/output/snake.svg)
 
 ###
