@@ -1,0 +1,33 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Exécute le workflow chaque jour à minuit
+  workflow_dispatch: # Permet de le lancer manuellement
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Snake Animation
+        uses: Platane/snk@master
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg
+
+      - name: Upload Snake SVG
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake
+          path: dist/snake.svg
+          retention-days: 7 # Empêche les erreurs liées aux artefacts obsolètes
+
+      - name: Deploy to output branch
+        uses: actions/upload-pages-artifact@v2
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
