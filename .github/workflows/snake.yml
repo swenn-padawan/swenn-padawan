@@ -3,7 +3,7 @@ name: Generate Snake
 on:
   schedule:
     - cron: "0 0 * * *" # Exécute le workflow chaque jour à minuit
-  workflow_dispatch: # Permet de l'exécuter manuellement
+  workflow_dispatch: # Permet de le lancer manuellement
 
 jobs:
   build:
@@ -23,10 +23,11 @@ jobs:
         with:
           name: snake
           path: dist/snake.svg
+          retention-days: 7 # Empêche les erreurs liées aux artefacts obsolètes
 
       - name: Deploy to output branch
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: output
-          folder: dist
-          clean: true
+        uses: actions/upload-pages-artifact@v2
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
