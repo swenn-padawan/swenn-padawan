@@ -9,20 +9,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v2
 
-      - name: Generate Snake Animation
-        uses: Platane/snk@master
+      # Update this step to use the latest version of the upload-artifact action
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4 # Update to a supported version
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg
-
-      - name: Upload Snake SVG
-        uses: actions/upload-artifact@v4
-        with:
-          name: snake
-          path: dist/snake.svg
+          name: my-artifact
+          path: path/to/artifacts
           retention-days: 7 # Empêche les erreurs liées aux artefacts obsolètes
 
       - name: Deploy to output branch
