@@ -1,23 +1,25 @@
-<h2 align="left">Hi 👋! My name is Swenn and I'm a Apprentice Dev, from 42</h2>
 
-###
+
+  <div align="center">
+  <h2>👋 Hi, I'm Swenn, i'm a <img src="assets/icons/42.svg" alt="42" width="40" height="40"/> student</h2>
+  <p>
+    I'm a <strong>beginner in cybersecurity</strong>, eager to learn and grow.<br/>
+    Currently exploring platforms like <code>Root-Me</code>.<br/>
+    Always curious, always learning.
+  </p>
+  <p>🔒 Goal: Got the level to work in the field in 2026.</p>
+</div>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=swenn-padawan&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <p>
+    🔍 Passionate about <strong>reverse engineering and low-level programming <img src="assets/icons/c.svg" alt="c" width="40" height="40"/> <img src="assets/icons/rust.svg" alt="rust" width="40" height="40"/> </strong><br/>
+    🎯 Learning principaly with <code>Root-Me</code> • 
+<img src="assets/icons/rootme.svg" alt="rootme" width="40" height="40"/>
+  </p>
+  <p>
+    🚀 Sharing my journey through projects and writeups.
+  </p>
 </div>
 
 
 
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo"  />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="30" alt="vim logo"  />
-</div>
-
-###
-<br clear="both">
-
-
-
-###
