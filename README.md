@@ -7,7 +7,6 @@
     Currently exploring platforms like <code>Root-Me</code>.<br/>
     Always curious, always learning.
   </p>
-  <p>🔒 Goal: Got the level to work in the field in 2026.</p>
 </div>
 
 <div align="center">
@@ -17,7 +16,7 @@
 <img src="assets/icons/rootme.svg" alt="rootme" width="40" height="40"/>
   </p>
   <p>
-    🚀 Sharing my journey through projects and writeups.
+    Here's my links: <a href=https://www.root-me.org/swenn-padawan?lang=fr#bc4750dd63e1a26e7609c3dd68ba979c>RootMe</a>
   </p>
 </div>
 
