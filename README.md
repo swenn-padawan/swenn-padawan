@@ -5,13 +5,12 @@
   <p>
     I'm a <strong>beginner in cybersecurity</strong>, eager to learn and grow.<br/>
     Currently exploring platforms like <code>Root-Me</code>.<br/>
-    Always curious, always learning.
   </p>
 </div>
 
 <div align="center">
   <p>
-    🔍 Passionate about <strong>reverse engineering and low-level programming <img src="assets/icons/c.svg" alt="c" width="40" height="40"/> <img src="assets/icons/rust.svg" alt="rust" width="40" height="40"/> </strong><br/>
+    🔍 Passionate about <strong>reverse engineering and low-level programming <img src="assets/icons/c.svg" alt="c" width="40" height="40"/> <br/>
     🎯 Learning principaly with <code>Root-Me</code> • 
 <img src="assets/icons/rootme.svg" alt="rootme" width="40" height="40"/>
   </p>
